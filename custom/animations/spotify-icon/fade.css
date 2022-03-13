@@ -1,0 +1,16 @@
+figure.image.is-32x32 {
+    animation: spotify-icon-fade 10s linear infinite;
+}
+
+@keyframes spotify-icon-fade {
+  0%,
+  80% {
+    filter: opacity(100%);
+  }
+  90% {
+    filter: opacity(0%);
+  }
+  100% {
+    filter: opacity(100%);
+  }
+}
