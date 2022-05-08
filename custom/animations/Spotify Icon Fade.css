@@ -1,7 +1,8 @@
+/*Spotify icon*/
 figure.image.is-32x32 {
-    animation: spotify-icon-fade 10s linear infinite;
+  animation: spotify-icon-fade 10s linear infinite;
 }
-
+/*Animations*/
 @keyframes spotify-icon-fade {
   0%,
   80% {

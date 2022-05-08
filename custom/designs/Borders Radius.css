@@ -1,8 +1,8 @@
 /* Widget in the right side */
 .media[data-v-1e2f0625] {
-    border-radius: 15px 0px 0px 15px;
+  border-radius: 15px 0px 0px 15px;
 }
 /* Widget in the left side */
 .media[data-v-1e2f0625] {
-    border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 15px 15px 0px;
 }
