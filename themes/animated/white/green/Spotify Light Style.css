@@ -1,5 +1,7 @@
 /* Spotify Light Style */
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+/*Widget box*/
 .media[data-v-1e2f0625] {
   animation: bar 5s ease-out infinite alternate both;
   background: rgba(255, 255, 255, 1);
@@ -9,6 +11,31 @@
   height: 70px;
   overflow: hidden;
 }
+/*Spotify icon box*/
+.media-right {
+  margin-right: 1rem;
+}
+/*Spotify icon*/
+figure.image.is-32x32 {
+  animation: spotify-icon-fade 10s linear infinite;
+}
+/*Track name*/
+p.is-size-4.has-text-white {
+  color: rgba(29, 185, 84, 1) !important;
+  font-family: 'Lexend', sans-serif;
+  font-size: 19px !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*Artist name*/
+p.is-size-6.has-text-white {
+  color: rgba(25, 20, 20, 1) !important;
+  font-family: 'Lexend', sans-serif;
+  font-size: 13px !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*Image cover*/
 .image.is-64x64 {
   animation: cover-spin 20s linear infinite,
     cover-border 5s ease-out infinite alternate both;
@@ -20,26 +47,7 @@
   overflow: auto;
   border: 3px solid rgba(25, 20, 20, 1);
 }
-figure.image.is-32x32 {
-  animation: spotify-icon-fade 10s linear infinite;
-}
-p.is-size-6.has-text-white {
-  color: rgba(25, 20, 20, 1)!important;
-  font-family: "Lexend", sans-serif;
-  font-size: 13px!important;
-  font-weight: bold;
-
-}
-p.is-size-4.has-text-white {
-  color: rgba(29, 185, 84, 1)!important;
-  font-family: "Lexend", sans-serif;
-  font-size: 19px!important;
-  font-weight: bold;
-
-}
-.media-right {
-    margin-right: 1rem;
-}
+/*Animations*/
 @keyframes bar {
   0%,
   100% {
